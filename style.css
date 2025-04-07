@@ -1,0 +1,29 @@
+.hoo svg {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effect for SVG */
+.hoo:hover svg {
+  transform: scale(1.2);
+  filter: brightness(2) drop-shadow(0 0 10px #932edb);
+}
+
+.profile-img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1) drop-shadow(0 0 10px #932edb);
+  }
+  
+  .linke a {
+    transition: transform 0.3s ease, filter 0.3s ease, color 0.3s ease;
+  }
+  
+  .linke:hover {
+    transform: scale(1.6);
+    filter: brightness(2) drop-shadow(0 0 10px #932edb);
+    color: white;
+  }
+  
